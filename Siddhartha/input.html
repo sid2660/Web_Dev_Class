@@ -1,0 +1,95 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+    </style>
+
+    <title>Student Data</title>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="form-page.css"
+      media="screen"
+    />
+  </head>
+  <!--form-->
+  <body>
+    <div>
+      <h1 id="title">Student Data</h1>
+      <p id="subtitle">
+        Enter your details for emergency.
+      </p>
+    </div>
+    <br />
+
+    <!--box -->
+    <form id="form">
+      <div>
+        <label for="nameId"><strong>Name</strong></label>
+        <input type="text" name="name" id="nameId" required />
+      </div>
+      <div>
+        <label for="lastNameId"><strong>Surname</strong></label>
+        <input type="text" name="lastName" id="lastNameId" required />
+      </div>
+      <div>
+        <label for="emailId"><strong>E-mail</strong></label>
+        <input type="email" name="email" id="emailId" required />
+      </div>
+      <div>
+        <label for="phoneId"><strong>Telefone</strong></label>
+        <input type="number" name="phone" id="phoneId" required />
+      </div>
+      <div>
+        <label for="profileId"><strong>LinkedIn</strong></label>
+        <input type="url" name="linkedIn" id="profileId" />
+      </div>
+      <br />
+
+      <!--Rádio -->
+      <div>
+        <label><strong>What do you want to do:</strong></label>
+      </div>
+      <br />
+      <div>
+        <label>
+          <input type="radio" name="front" value="Frontend" />Front-end
+        </label>
+        <label>
+          <input type="radio" name="qa" value="qa" /> QA Engineer
+        </label>
+        <label>
+          <input type="radio" name="back" value="backend" />Back-end
+        </label>
+        <label>
+          <input type="radio" name="business" value="business" />Coder
+        </label>
+      </div>
+      <br />
+      
+      <div>
+        <br />
+        <label
+          ><strong
+            >If you'r done then click on the check box;</strong
+          ></label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="dias"
+          name="dias"
+          value="If you'r done then click on the check box;"
+        />
+        <label for="dias">Click here if you'r done</label>
+      </div>
+      <button class="button" type="submit">Done</button>
+    </form>
+  </body>
+</html>
